@@ -26,3 +26,11 @@ You wish your repository looked like you started after fixing a bug.
          hot-bugfix
 
 Achieve that.
+
+Answer:-
+
+git checkout -b tester B(Sha of B)
+
+git cherry-pick all commit of c brnach
+
+git rebase tester change-branch-history
